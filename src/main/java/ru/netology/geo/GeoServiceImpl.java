@@ -11,6 +11,7 @@ public class GeoServiceImpl implements GeoService {
 
     /**
      * Метод определяет локацию по ip
+
      */
     public Location byIp(String ip) {
         if (LOCALHOST.equals(ip)) {
